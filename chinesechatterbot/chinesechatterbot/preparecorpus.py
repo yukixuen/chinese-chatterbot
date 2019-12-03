@@ -163,13 +163,11 @@ class CorpusLoader(object):
 if __name__=='__main__':
     from chinesechatterbot.chatterbotbody import chatbot
     mychatbot = chatbot("default",database_uri='mongodb://localhost:27017/tieba-chatterbot-database')
-<<<<<<< HEAD
     corpusloader = CorpusLoader(mychatbot,source="tieba.txt",
                                 wd=r"E:\zzx\Fudan University Life\DataAnalysisPractice\natural language process practice\chinese_chatbot_corpus-master\clean_chat_corpus",
                                 savepath=r"E:\zzx\Fudan University Life\DataAnalysisPractice\natural language process practice\chatbot\trial.json")
-=======
+
     corpusloader = CorpusLoader(mychatbot,source="tieba.txt")                               
->>>>>>> bdc5e09926790695598cb03c2bcf20ecaf25bad2
     corpusloader.loadCorpus(0,filtertrash=True) 
     # 注意，准备语料库时要么全部从json导入要么全部直接导入数据库，否则mongodbstorage.filter的时间排序出问题
     print(corpusloader.viewCorpusFilterred()[1:10])
