@@ -1,0 +1,6 @@
+# Used by pip to install required python packages
+# Usage: pip install -r requirements.txt
+
+jieba
+pytz
+pymongo
