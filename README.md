@@ -25,9 +25,9 @@
 |--search.py：定义search类。搜索数据库，被response_adapter调用。  
 |--simhash.py：simhash类。被match_based调用。  
 |--utils.py：其它。  
-|--requirements.txt：所需环境，比较重要的包是jieba。
-|--stopword.txt：中文停用词。
-|--signstopword.txt：停用符号。
+|--requirements.txt：所需环境，比较重要的包是jieba。  
+|--stopword.txt：中文停用词。  
+|--signstopword.txt：停用符号。  
 说明:  
 当前实现的应答逻辑接口MatchBased类采用[simhash](https://blog.csdn.net/Daverain/article/details/80919418)计算语句相似性。
 
