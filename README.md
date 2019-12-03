@@ -45,7 +45,7 @@
 
 进入chatterbotbody.py中，一句简单的get_response(input)即可开始对话！  
 样例：  
->>You: 你好  
+>You: 你好  
 chatbot.name: 你好吗  
 You: 我不好  
 chatbot.name: 不好就不好啦，说这么大声是要全世界的人都听到吗  
